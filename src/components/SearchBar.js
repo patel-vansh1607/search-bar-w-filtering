@@ -16,7 +16,16 @@ const dataList = [
     "Naranjilla", "Pawpaw", "Rambutan", "Rose Apple", "Santol", "Sugar Apple", "Velvet Apple", "Wood Apple"
   ];
   
-
+  const SearchFilter = () => {
+  }
+  
+    const handleChange = () => {
+      
+    };
+  
+    const filteredData = (() =>
+      
+    );
 
 const SearchBarFilter = () =>{
     return(
