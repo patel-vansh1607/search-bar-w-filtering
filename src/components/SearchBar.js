@@ -26,12 +26,24 @@ const dataList = [
     const filteredData = dataList.filter((item) =>
       item.toLowerCase().includes(query)
     );
-    
+
 const SearchBarFilter = () =>{
     return(
         <div className="main-div">
-            <div className="search-bar">
-
+            <div className="search-container">
+                <input
+                    type="text"
+                    placeholder="Search fruits..."
+                    onChange={handleChange}
+                    className="search-input"
+                />
+                <ul className="results-list">
+                    {filteredData.map((item, index) => (
+                    <li key={index} className="result-item">
+                        {item}
+                    </li>
+                    ))}
+                </ul>
             </div>
         </div>
     )
