@@ -17,16 +17,16 @@ const dataList = [
   ];
   
   const SearchFilter = () => {
-  }
+    const [query, setQuery] = useState("");
   
-    const handleChange = () => {
-      
+    const handleChange = (e) => {
+      setQuery(e.target.value.toLowerCase());
     };
   
-    const filteredData = (() =>
-      
+    const filteredData = dataList.filter((item) =>
+      item.toLowerCase().includes(query)
     );
-
+    
 const SearchBarFilter = () =>{
     return(
         <div className="main-div">
