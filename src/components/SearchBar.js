@@ -17,18 +17,20 @@ const dataList = [
     "Naranjilla", "Pawpaw", "Rambutan", "Rose Apple", "Santol", "Sugar Apple", "Velvet Apple", "Wood Apple"
   ];
   
-  const SearchFilter = () => {
-    const [query, setQuery] = useState("");
-  
-    const handleChange = (e) => {
-      setQuery(e.target.value.toLowerCase());
-    };
-  
-    const filteredData = dataList.filter((item) =>
-      item.toLowerCase().includes(query)
-    );
-  }
+ 
 const SearchBarFilter = () =>{
+
+    const SearchFilter = () => {
+        const [query, setQuery] = useState("");
+      
+        const handleChange = (e) => {
+          setQuery(e.target.value.toLowerCase());
+        };
+      
+        const filteredData = dataList.filter((item) =>
+          item.toLowerCase().includes(query)
+        );
+      }
     return(
         <div className="main-div">
             <div className="search-container">
