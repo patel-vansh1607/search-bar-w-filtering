@@ -1,4 +1,5 @@
 import "../styles/SearchBar.css"
+import React, { useState } from "react";
 
 const dataList = [
     "Apple", "Apricot", "Avocado", "Banana", "Blackberry", "Blueberry", "Boysenberry", "Breadfruit",
@@ -26,7 +27,7 @@ const dataList = [
     const filteredData = dataList.filter((item) =>
       item.toLowerCase().includes(query)
     );
-
+  }
 const SearchBarFilter = () =>{
     return(
         <div className="main-div">
