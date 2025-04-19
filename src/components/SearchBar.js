@@ -1,3 +1,23 @@
+
+
+const dataList = [
+    "Apple", "Apricot", "Avocado", "Banana", "Blackberry", "Blueberry", "Boysenberry", "Breadfruit",
+    "Cantaloupe", "Cherry", "Clementine", "Coconut", "Cranberry", "Currant", "Date", "Dragonfruit",
+    "Durian", "Elderberry", "Feijoa", "Fig", "Goji Berry", "Gooseberry", "Grape", "Grapefruit",
+    "Guava", "Honeydew", "Huckleberry", "Jackfruit", "Jambul", "Jujube", "Kiwano", "Kiwi",
+    "Kumquat", "Lemon", "Lime", "Longan", "Loquat", "Lychee", "Mandarin", "Mango",
+    "Mangosteen", "Mulberry", "Nance", "Nectarine", "Olive", "Orange", "Papaya", "Passionfruit",
+    "Peach", "Pear", "Persimmon", "Pineapple", "Plantain", "Plum", "Pomegranate", "Pomelo",
+    "Prickly Pear", "Quince", "Raspberry", "Red Banana", "Red Currant", "Salak", "Satsuma", "Sapodilla",
+    "Sapote", "Soursop", "Star Apple", "Starfruit", "Strawberry", "Surinam Cherry", "Tamarillo", "Tamarind",
+    "Tangerine", "Tomato", "Ugli Fruit", "Watermelon", "White Currant", "White Sapote", "Wild Banana", "Yuzu",
+    "Ziziphus Fruit", "Ackee", "Bilberry", "Cupuacu", "Davidson's Plum", "Emu Apple", "Finger Lime", "Gac Fruit",
+    "Horned Melon", "Indian Fig", "Jaboticaba", "Langsat", "Mamoncillo", "Marionberry", "Miracle Fruit", "Monstera",
+    "Naranjilla", "Pawpaw", "Rambutan", "Rose Apple", "Santol", "Sugar Apple", "Velvet Apple", "Wood Apple"
+  ];
+  
+
+
 const SearchBarFilter = () =>{
     return(
         <div className="main-div">
