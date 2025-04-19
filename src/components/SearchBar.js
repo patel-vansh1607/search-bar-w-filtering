@@ -1,4 +1,4 @@
-
+import "../styles/SearchBar.css"
 
 const dataList = [
     "Apple", "Apricot", "Avocado", "Banana", "Blackberry", "Blueberry", "Boysenberry", "Breadfruit",
