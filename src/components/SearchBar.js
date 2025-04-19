@@ -19,8 +19,6 @@ const dataList = [
   
  
 const SearchBarFilter = () =>{
-
-    const SearchFilter = () => {
         const [query, setQuery] = useState("");
       
         const handleChange = (e) => {
@@ -30,7 +28,6 @@ const SearchBarFilter = () =>{
         const filteredData = dataList.filter((item) =>
           item.toLowerCase().includes(query)
         );
-      }
     return(
         <div className="main-div">
             <div className="search-container">
